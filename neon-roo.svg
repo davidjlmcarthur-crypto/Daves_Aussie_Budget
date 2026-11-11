@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 210" role="img" aria-labelledby="title desc">
+  <title id="title">The outback cowboy</title><desc id="desc">A yellow neon cowboy riding a leaping kangaroo and spinning a lasso overhead.</desc>
+  <defs><filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="3.2"/></filter>
+  <g id="sign" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Kangaroo: long tail, rounded haunch, ears, short arms and powerful hind legs. -->
+    <path d="M15 174 Q51 165 69 143 Q71 122 86 116 Q102 110 117 119 L135 112 L146 96 L151 79 L159 96 L168 75 L167 100 L187 108 Q191 112 183 116 L167 113 L157 132 L165 142 L184 139 L190 143 L164 150 L151 141 L137 150 Q126 156 110 147 L131 171 L164 173 L169 178 L126 179 L100 158 L105 174 L123 189 L147 190 L150 195 L118 195 L91 175 L84 151 Q56 176 15 174"/>
+    <path d="M85 125 Q94 121 104 129 M170 106 L172 106"/>
+    <!-- Western saddle, boots and seated rider. -->
+    <path d="M87 113 Q104 120 123 113 M90 110 L89 119 M117 111 L123 120"/>
+    <path d="M100 87 L97 106 L116 115 L124 134 L133 135 M100 103 L89 121 L98 140 L106 140"/>
+    <path d="M98 89 Q107 94 118 87 L117 107 L105 110 M105 80 L99 88 M116 80 L118 87"/>
+    <!-- Head and unmistakable cowboy hat. -->
+    <path d="M104 65 L104 74 Q109 83 116 76 L119 68 M99 65 Q111 70 126 63 M101 63 L104 52 L111 55 L117 51 L121 63"/>
+    <!-- Reins and raised lasso arm. -->
+    <path d="M101 87 L91 94 L107 101 L114 97 M114 97 Q136 104 160 113 M118 87 L133 75 L137 52 L143 50 L144 56 L140 81 L124 95"/>
+    <g class="lasso"><path d="M141 51 Q149 42 160 39"/><ellipse cx="176" cy="29" rx="42" ry="15" transform="rotate(-13 176 29)"/><path d="M151 13 L147 10 M214 49 L220 52"/></g>
+  </g></defs>
+  <use href="#sign" stroke="#ffb800" stroke-width="6.5" opacity=".55" filter="url(#glow)"/>
+  <use href="#sign" stroke="#ffd23e" stroke-width="3.5"/>
+  <use href="#sign" stroke="#fff1ad" stroke-width="1.15" opacity=".95"/>
+  <style>.lasso{transform-origin:176px 29px;animation:twirl 2.8s ease-in-out infinite}@keyframes twirl{0%,100%{transform:rotate(-6deg) scaleY(.85)}50%{transform:rotate(6deg) scaleY(1)}}@media(prefers-reduced-motion:reduce){.lasso{animation:none}}</style>
+</svg>
